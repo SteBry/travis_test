@@ -1,6 +1,9 @@
+import unittest
 
-
-
+class User(unittest.TestCase):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
 
 
@@ -20,4 +23,4 @@ def run():
 
 
 if __name__ == '__main__':
-    run()
+    unittest.main()
